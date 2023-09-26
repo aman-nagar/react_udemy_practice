@@ -38,12 +38,17 @@ const App = () => {
   //   React.createElement(Expenses, { items: expenses })
   // );
 
+  const addExpanseHandler = (expense) => {
+    console.log("in app.js");
+    console.log(expense);
+  };
+
   return (
     <div>
-    <NewExpense/>
-   <Expenses items={expenses}/>
+      <NewExpense onAddExpense={addExpanseHandler} />
+      <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
