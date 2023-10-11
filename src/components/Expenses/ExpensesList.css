@@ -1,0 +1,11 @@
+
+.fallback{
+    text-align: center;
+    color: rgb(144, 52, 52);
+}
+.expenses-list li{
+    list-style-type: none;
+}
+.expenses-list{
+    padding: 5px 10px;
+}
